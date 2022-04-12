@@ -7,13 +7,13 @@ This is a app created using Node.js in which the system generates team member's 
 
 ## Tabel of Contents
 
-*[Installation](#installation)
-*[Usage](#usage)
-*[Contribute](#contribute)
-*[Tests](#tests)
-*[Technology](#technology)
-*[Making](#making)
-*[Questions](#questions)
+- *[Installation](#installation)
+- *[Usage](#usage)
+- *[Contribute](#contribute)
+- *[Tests](#tests)
+- *[Technology](#technology)
+- *[Making](#making)
+- *[Questions](#questions)
 
 ## Installation
 
