@@ -11,7 +11,7 @@ describe ("Methods", () => {
         const employee = new Employee('Kishan', id, 'email@email.com');
         expect(employee.getId()).toBe(id);
     })
-    test ('can we get email by calling getEmial()', () => {
+    test ('can we get email by calling getEmail()', () => {
         const email = 'email@email.com';
         const employee = new Employee('Kishan', 20, email);
         expect(employee.getEmail()).toBe(email);
