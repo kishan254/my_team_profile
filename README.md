@@ -9,9 +9,9 @@ This is an app I created using the node.js framework in which the user is able t
 
 This was a bootcamp project which I really enjoyed working on
 
+
 VIDEO OF WALKTHROUGH is below
 [Video](https://drive.google.com/file/d/1c6q0PIztFnHZ6XFCpl3LkpzTLvSpgPA-/view?usp=sharing)
-
 ## Tabel of Contents
 
 * [Installation](#installation)
@@ -52,7 +52,9 @@ To run tests, please use the following command:
 
 - npm run test
 
-## Screenshots
+
+## Screenshots 
+
 
 ![image_one](images/npm_test_one.png)
 ![image_two](images/node_test_two.png)
@@ -73,6 +75,7 @@ These are the screenshots of the code
 
 Get Employee Function
 
+
 ![Code-Snippet] (images/getEmployee_function_five.png)
 
 Generate the page function
@@ -86,6 +89,21 @@ Card Selector function
 Card Generator 
 
 ![Code-Snippet](images/card_generator_eight.png)
+
+![Code-Snippet](images/getEmployee.png)
+
+Generate the page function
+
+![Code-Snippet](images/generateHTML.png)
+
+Card Selector function 
+
+![Code-Snippet](images/cardSelector.png)
+
+Card Generator 
+
+![Code-Snippet](images/createCard.png)
+
 
 ## Questions
 
