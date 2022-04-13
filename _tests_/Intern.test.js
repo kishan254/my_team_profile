@@ -23,6 +23,6 @@ describe ("Methods", () => {
     })
     test('can we get role by calling getRole()', () => {
         const intern = new Intern('Marco', 21, 'email@email.com', 'UWA');
-        expect(intern.getRoles()).toBe('Intern');
+        expect(intern.getRole()).toBe('Intern');
     })
 })

@@ -97,7 +97,7 @@ function createManager(data) {
 
 //Create an intern card
 
-function createIntern(data);{
+function createIntern(data){
     return `
     <div class = "card cardbody">
             <div class = "card-header" id = "person">

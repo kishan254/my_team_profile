@@ -95,12 +95,12 @@ const employeeQuestion = [
     }
 ]
 
-// Initial finction to be run to receive the manager's information
+// Initial function to be run to receive the manager's information
 
 function getManager () {
     console.log('-------Manager Identification-------');
     inquirer.prompt(managerQuestions)
-    .then (mAnswers => {
+    .then(mAnswers => {
         const manager = new Manager (mAnswers.name, mAnswers.id, mAnswers.email, mAnswers.officeNumber, 'Manager');
         team.push(manager);
         getNextEmployee();
@@ -111,7 +111,7 @@ function getManager () {
 
 function getNextEmployee() {
     inquirer.prompt(employeeQuestion)
-    .then(function (data){
+    .then(function (data) {
         switch (data.choice) {
             //Case for adding an intern
             case 'Intern':
@@ -126,7 +126,7 @@ function getNextEmployee() {
                 break;
                 // Case for adding an engineer
                 case 'Engineer':
-                    console.log('-------- Engineer Information -------');
+                    console.log('--------Engineer Information-------');
                     inquirer.prompt(engineerQuestions)
                     .then(answers => {
                         const engineer = new Engineer (answers.name, answers.id, answers.email, answers.github, 'Engineer');
@@ -134,6 +134,7 @@ function getNextEmployee() {
                         console.log(engineer);
                         getNextEmployee();
                     });
+                break;
                     // Case for being done.
                     case 'Done adding members':
                         generatePage(team);
@@ -144,7 +145,7 @@ function getNextEmployee() {
 // Callback function to write the file
 
 function writeToFile(fileName, data) {
-    fs.writeFile(path.join(_dirname, fileName), data, function(err){
+    fs.writeFile(path.join(__dirname, fileName), data, function(err){
         if (err) throw err
         console.log('File Written!');
     })

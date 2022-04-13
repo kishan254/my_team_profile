@@ -1,5 +1,5 @@
-const Engineer = require('../lib/Engineer');
 
+const Engineer = require('../lib/Engineer');
 describe ("Methods", () => {
     test ('can we get name by calling getName()', () => {
         const name = 'Luca';
@@ -23,6 +23,6 @@ describe ("Methods", () => {
     })
     test('can we get role by calling getRole()', () => {
         const engineer = new Engineer('Luca', 22, 'email@email.com', 'kishan254');
-        expect(engineer.getRoles()).toBe('Engineer');
+        expect(engineer.getRole()).toBe('Engineer');
     })
 })
