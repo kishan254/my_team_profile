@@ -143,7 +143,6 @@ function getNextEmployee() {
 }
 
 // Callback function to write the file
-
 function writeToFile(fileName, data) {
     fs.writeFile(path.join(__dirname, fileName), data, function(err){
         if (err) throw err
@@ -152,7 +151,6 @@ function writeToFile(fileName, data) {
 }
 
 // Function that generates the html page
-
 function generatePage(team) {
     console.log ('Creating HTML...');
     const html = createHTML(team);
