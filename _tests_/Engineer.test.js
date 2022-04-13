@@ -18,11 +18,11 @@ describe ("Methods", () => {
     })
     test ('can we get id by calling getGithub()', () => {
         const github = 'kishan254';
-        const engineer = new Engineer ('Luca', 22, 'email@email.com', github)
+        const engineer = new Engineer ('Luca', 22, 'email@email.com', github);
         expect(engineer.getGithub()).toBe(github);
     })
     test('can we get role by calling getRole()', () => {
-        const engineer = new Engineer('Luca', 22, 'email@email.com', 'UWA');
+        const engineer = new Engineer('Luca', 22, 'email@email.com', 'kishan254');
         expect(engineer.getRoles()).toBe('Engineer');
     })
 })
