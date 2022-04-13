@@ -49,7 +49,7 @@ To run tests, please use the following command:
 
 - npm run test
 
-## Screenshots
+## Screenshots 
 
 ![image_one](images/npm_test_one.png)
 ![image_two](images/node_test_two.png)
@@ -70,19 +70,19 @@ These are the screenshots of the code
 
 Get Employee Function
 
-![Code-Snippet] (images/getEmployee_function_five.png)
+![Code-Snippet](images/getEmployee.png)
 
 Generate the page function
 
-![Code-Snippet](images/create_page_function_six.png)
+![Code-Snippet](images/generateHTML.png)
 
 Card Selector function 
 
-![Code-Snippet](images/allCard_create_function_seven.png)
+![Code-Snippet](images/cardSelector.png)
 
 Card Generator 
 
-![Code-Snippet](images/card_generator_eight.png)
+![Code-Snippet](images/createCard.png)
 
 ## Questions
 
