@@ -9,6 +9,9 @@ This is an app I created using the node.js framework in which the user is able t
 
 This was a bootcamp project which I really enjoyed working on
 
+VIDEO OF WALKTHROUGH is below
+[Video](https://drive.google.com/file/d/1c6q0PIztFnHZ6XFCpl3LkpzTLvSpgPA-/view?usp=sharing)
+
 ## Tabel of Contents
 
 * [Installation](#installation)
