@@ -1,19 +1,24 @@
 # my_team_profile
 This is a app created using Node.js in which the system generates team member's cards that can be viewed in html file
 
-![Badge](https://img.shiels.io/badge/license-MIT-blue)
+![Badge](https://img.shields.io/github/license/kishan254/my_team_profile?style=flat-square)
 
 ## Description
 
+This is an app I created using the node.js framework in which the user is able to add profiles to their portfolio and have a record of all the employees' details
+
+This was a bootcamp project which I really enjoyed working on
+
 ## Tabel of Contents
 
-- *[Installation](#installation)
-- *[Usage](#usage)
-- *[Contribute](#contribute)
-- *[Tests](#tests)
-- *[Technology](#technology)
-- *[Making](#making)
-- *[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribute](#contribute)
+* [Tests](#tests)
+* [Screenshots](#screenshots)
+* [Technology](#technology)
+* [Making](#making)
+* [Questions](#questions)
 
 ## Installation
 
@@ -44,6 +49,13 @@ To run tests, please use the following command:
 
 - npm run test
 
+## Screenshots
+
+![image_one](images/npm_test_one.png)
+![image_two](images/node_test_two.png)
+![image_three](images/html_created_three.png)
+![image_four](images/html_live_four.png)
+
 ## Technology
 
 - Github
@@ -58,19 +70,19 @@ These are the screenshots of the code
 
 Get Employee Function
 
-![Code-Snippet]
+![Code-Snippet] (images/getEmployee_function_five.png)
 
 Generate the page function
 
-![Code-Snippet]
+![Code-Snippet](images/create_page_function_six.png)
 
 Card Selector function 
 
-![Code-Snippet]
+![Code-Snippet](images/allCard_create_function_seven.png)
 
 Card Generator 
 
-![Code-Snippet]
+![Code-Snippet](images/card_generator_eight.png)
 
 ## Questions
 
