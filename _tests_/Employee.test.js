@@ -1,4 +1,4 @@
-const Employee = require('../lib/Empoyee');
+const Employee = require('../lib/Employee');
 
 describe ("Methods", () => {
     test ('can we get name by calling getName()', () => {
